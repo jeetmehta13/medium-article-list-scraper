@@ -1,0 +1,26 @@
+{
+  "name": "aether-hashtag-backend",
+  "version": "1.0.0",
+  "description": "Backend for Hashtag Integration Of IECSE's Aether App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jeetsmehta13/aether-hashtag-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jeetsmehta13/aether-hashtag-backend/issues"
+  },
+  "homepage": "https://gitlab.com/jeetsmehta13/aether-hashtag-backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "nodemon": "^2.0.2",
+    "rss-to-json": "^1.0.5"
+  }
+}
