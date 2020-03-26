@@ -1,8 +1,8 @@
 const express = require("express");
-const articles = require("./articles");
+const hashtag = require("./hashtag");
 
 const router = express.Router();
 
-router.get("/fetchArticles", articles.fetch);
+router.get("/fetchArticles", hashtag.fetch);
 
 module.exports = router;
