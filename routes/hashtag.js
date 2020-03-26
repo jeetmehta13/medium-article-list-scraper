@@ -19,7 +19,7 @@ exp.fetch = async(req, res) => {
                         title: $(element).find("h3.graf--title").text(),
                         description: $(element).find("h4.graf--subtitle").text(),
                         publishedOn: $(element).find("a.link--darken").find("time").attr("datetime"),
-                        imagelink: $(element).find("div.postArticle-content").find("img").attr("src")
+                        imagelink: ($(element).find("div.postArticle-content").find("img").attr("src")).replace("480", "700")
                     })
                 });
                 res.sendSuccess(data);
