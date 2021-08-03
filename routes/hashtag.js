@@ -1,5 +1,5 @@
-import request from 'request';
-import cheerio from 'cheerio';
+const request = require('request');
+const cheerio = require('cheerio');
 
 exports.hashtag = async (req, res) => {
     try {
